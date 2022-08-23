@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFF;
+    background-image: url(images/bgpage.webp)
+}
+
+header .banner {
+    text-align: center;
+}
+
+.banner img {
+    margin-top: 20px;
+}
+
+.banner h1 {
+    margin-top: 30px;
+    font-family: 'Aboreto', cursive;
+    font-size: 35px;
+    margin-bottom: 35px;
+    text-shadow: 1px 2px 2px #808080;
+}
+
+.banner h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    color: #2b2e36;
+}
+
+header .wayne-logo {
+    width: 200px;
+}
+
+.login-screen {
+    display: flex;
+    height: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 35px;
+}
+
+.login-screen h2 {
+    font-family: 'Aboreto', cursive;
+    justify-content: center;
+}
+
+.login-screen h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+}
+
+.login-screen .sign-in {
+    flex: 1;
+    background-color: #f8c01e;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+
+.sign-in {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.sign-in button {
+    width: 70px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.sign-in h2, h3 {
+    margin-bottom: 20px;
+}
+
+.sign-in h2 {
+    font-size: 30px;
+    color: #2b2e36;;
+    text-shadow: 1px 1px 5px #d3d3d3;
+}
+
+.sign-in h3 {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 22px;
+    color: #2b2e36;
+    text-shadow: 1px 1px 3px #d3d3d3;
+}
+
+.login-screen .create-account {
+    flex: 2;
+    background-color: #2b2e36;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.create-account {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.create-account img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 35px;
+}
+
+.create-account h2 {
+    color: #f8c01e;
+}
+
+.create-account h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f8c01e;
+    text-shadow: 1px 1px 5px #2b2e36;
+}
+
+.form-registration input {
+    height: 20px;
+    margin-bottom: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-registration .sign-in-form {
+    width: 70px;
+}
+
+.create-account .form-registration form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
